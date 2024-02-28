@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: rgba(218, 241, 232, 0.9);
+}
+
+.container{
+    width: 50%;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+}
+
+.search-box{
+    box-shadow: 1px 1px 3px grey;
+    margin: 10px 5px 10px 20px;
+    max-width: 300px;
+    width: 70%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 10px;
+}
+
+.search-box input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 6px;
+    color: black;
+}
+
+::placeholder{
+    color: rgb(72, 72, 72);
+}
+
+.search-box button img{
+    width: 10px;
+    background: transparent;
+}
+
+.search-box button{
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.table{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    margin-left: 5px;
+}
+.column{
+    margin-left: 15px;
+    margin-bottom: 8px;
+    float: left;
+    width: 33.33%;
+    max-width: 100px;
+}
+
+.column img{
+    width: 70px;
+    height: 60px;
+    padding: 0px;;
+    box-shadow: 1px 1px 2px grey;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* .row{
+    display: flex;
+} */
+
+.order{
+    margin-left: 0px;
+    width: 70%;
+    max-width: 150px;
+    height: 230px;
+    /* max-height: 800px; */
+    border: solid;
+    /* background: linear-gradient(rgba(155,218,244,0.9),rgba(218, 241, 232, 0.9)); */
+    background-color: rgb(246,239,239);
+    border-radius: 13px;
+    margin-left: 350px;
+    margin-top: -250px;
+}
+
+.title-order{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.order-num{
+    line-height: 2vh;
+    margin-top: 2px;
+    margin-left: 14px;
+    font-size: 8px;
+    font-weight: 555;
+    margin-bottom: 5px;
+}
+
+.order ul{
+    display: flex;
+    font-size: 5px;
+    margin-top: 8px;
+    margin-left: 0;
+    padding-left: 15px;
+    min-width: 100px;
+    font-weight: bold;
+}
+
+.order ul li{
+    float: left;
+    width: 33.33%;
+    list-style: none;
+}
+
+.order button{
+    margin-top: 130px;
+    margin-left: 23px;
+    
+    width: 100px;
+    height: 20px;
+    background-color: rgb(238,147,39);
+    border: none;
+    color: rgb(221, 228, 228);
+    font-size: 8px;
+    font-weight: 400;
+    padding: 5px 5px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgb(71, 71, 71);
+    transition: background-color 0.5s;
+}
+
+.order button:hover{
+    background-color:rgb(221, 228, 228) ;
+    color: rgb(238,147,39);
+}
+
+.order button:active{
+    opacity: 0.5;
+}
