@@ -58,7 +58,7 @@ body{
     width: 70%;
     height: 60%;
     display: flex;
-    margin-left: 5px;
+    margin-left: 12px;
 }
 .column{
     margin-left: 15px;
@@ -69,8 +69,8 @@ body{
 }
 
 .column img{
-    width: 70px;
-    height: 60px;
+    width: 60px;
+    height: 50px;
     padding: 0px;;
     box-shadow: 1px 1px 2px grey;
 }
@@ -91,13 +91,15 @@ body{
     width: 70%;
     max-width: 150px;
     height: 230px;
+    /* max-height: 300px; */
     /* max-height: 800px; */
     border: solid;
     /* background: linear-gradient(rgba(155,218,244,0.9),rgba(218, 241, 232, 0.9)); */
     background-color: rgb(246,239,239);
     border-radius: 13px;
     margin-left: 350px;
-    margin-top: -250px;
+    margin-top: -290px;
+    position: relative;
 }
 
 .title-order{
@@ -159,4 +161,23 @@ body{
 
 .order button:active{
     opacity: 0.5;
+}
+
+.column button{
+    box-shadow: 1px 1px 2px grey;
+    border: none;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    font-size: 0px;
+    margin-top: 2px;
+}
+
+.red-btn{
+    background-image: url(/Images/Screenshot\ 2024-03-01\ 203856.png);
+    /*My code was cracking so had to use this color bg img*/
+}
+
+.green-btn{
+    background-image: url(/Images/greenbtn.png);
 }
