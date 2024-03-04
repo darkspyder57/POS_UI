@@ -169,15 +169,30 @@ body{
     border-radius: 50%;
     width: 5px;
     height: 5px;
-    font-size: 0px;
-    margin-top: 2px;
+    font-size: 8px;
+    line-height: 2px;
+    float: none;
+    margin-top: 1px;
+    cursor: pointer;
+    /* text-align: left; */
+}
+
+.column button:hover{
+    opacity: 0.7;
+}
+
+.column button:active{
+    opacity: 0.4;
 }
 
 .red-btn{
     background-image: url(/Images/Screenshot\ 2024-03-01\ 203856.png);
     /*My code was cracking so had to use this color bg img*/
+    /* background-color: red; */
+    color: white;
 }
 
 .green-btn{
     background-image: url(/Images/greenbtn.png);
+    color: white;
 }
